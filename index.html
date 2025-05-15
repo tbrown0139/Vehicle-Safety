@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>$1
-  <link rel="manifest" href="manifest.json" />
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Knovon Safety">
-  <meta name="theme-color" content="#2563eb">
-  <link rel="apple-touch-icon" href="https://asset.knovon.net/Knovon_black.png"> content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="title" content="Check your Vehicle Safty Recall - Knovon Safety" />
+  <meta name="description" content="A free online tool by Knovon to check your car's safety rating and recall status using your VIN. Powered by official NHTSA data." />
+  <meta name="keywords" content="vehicle recall, VIN check, car safety, NHTSA, Knovon, car lookup, recall search" />
+  <meta name="author" content="Knovon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Knovon - Vehicle Safety</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -148,7 +147,6 @@
       alertDiv.innerHTML = '';
       recallsDiv.innerHTML = '';
       safetyDiv.innerHTML = '';
-r
       if (!vin || vin.length < 5) {
         alertDiv.innerHTML = '<div class="alert danger">Please enter a valid VIN number.</div>';
         return;
